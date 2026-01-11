@@ -1,131 +1,149 @@
-# GitHub Tools Download Summary
+# Risk Tools Complete Download Summary
 
-**Date:** 2026-01-10
-**Total Categories:** 9
-**Total Tools:** 47
+**Generated:** 2026-01-11 19:19:14
 
----
+## Statistics
 
-## Download Statistics
+- Total tools in list: 84
+- Tools with GitHub URLs: 36
+- Successfully downloaded (new): 12
+- Already existed: 24
+- Skipped (non-GitHub URLs): 48
+- Failed: 0
 
-- **Total GitHub repositories processed:** 30
-- **✓ Successfully downloaded:** 29
-- **⊘ Skipped (not GitHub/no URL):** 17
-- **✗ Failed:** 1 (License Checker - repository not found)
+## By Category
 
----
+### Cybersecurity → `Cybersecurity`
 
-## Folder Structure
+- Total: 9
+- Downloaded: 0
+- Skipped: 9
+- Failed: 0
 
-All tools are organized in the following structure:
-```
-github download/
-├── [Category Name]/
-│   └── [Tool Name]/
-│       └── [Repository contents]
-```
+### EU AI Act Compliance → `EU AI Act Compliance`
 
----
+- Total: 11
+- Downloaded: 1
+- Skipped: 10
+- Failed: 0
 
-## Downloaded Tools by Category
+### Environment → `Environment`
 
-### 📁 Cybersecurity (1 tool)
-- ✓ Prompt Injection Detector
+- Total: 6
+- Downloaded: 1
+- Skipped: 5
+- Failed: 0
 
-### 📁 Environment (4 tools)
-- ✓ CodeCarbon
-- ⊘ ML CO2 Impact Calculator (API reference)
-- ✓ Cloud Carbon Footprint
-- ⊘ WattTime Carbon Calculator (API reference)
+### Fundamental Rights → `Fundamental Rights`
 
-### 📁 Technical (8 tools)
-- ✓ Evidently AI
-- ✓ Alibi Detect
-- ✓ RAGAS
-- ✓ Deepeval
-- ✓ Hugging Face Evaluate
-- ⊘ LangSmith (web service reference)
-- ⊘ Weights & Biases (web service reference)
-- ✓ Promptfoo
+- Total: 6
+- Downloaded: 2
+- Skipped: 4
+- Failed: 0
 
-### 📁 Trust (6 tools)
-- ✓ SHAP Explainer
-- ✓ LIME
-- ✓ Captum
-- ✓ InterpretML
-- ✓ What-If Tool
-- ✓ Axe Accessibility
+### GDPR Compliance → `EU AI Act Compliance`
 
-### 📁 Fundamental Rights (6 tools)
-- ✓ AI Fairness 360
-- ✓ Fairlearn
-- ✓ Aequitas
-- ⊘ Perspective API (API reference)
-- ⊘ Moderate Content API (API reference)
-- ✓ Disaggregated Evaluation
+- Total: 10
+- Downloaded: 0
+- Skipped: 10
+- Failed: 0
 
-### 📁 Societal (7 tools)
-- ⊘ Perspective API (API reference)
-- ✓ Detoxify
-- ⊘ Claimbuster API (API reference)
-- ✓ TextBlob Sentiment
-- ✓ VADER Sentiment
-- ✓ Hate Speech Detector
-- ⊘ AI Content Detector (no URL)
+### Health & Safety → `Health & Safety`
 
-### 📁 Third-Party (7 tools)
-- ⊘ Snyk.io (web service reference)
-- ✓ Safety (PyUp)
-- ⊘ npm audit (no URL)
-- ✓ Syft SBOM Generator
-- ✓ Grype Vulnerability Scanner
-- ✓ OSS Scorecard
-- ✗ License Checker (failed - repository not found)
+- Total: 5
+- Downloaded: 1
+- Skipped: 4
+- Failed: 0
 
-### 📁 Health & Safety (1 tool)
-- ✓ Conformance Calibration
+### Legal → `Legal`
 
-### 📁 EU AI Act Compliance (7 tools)
-- ⊘ Model Cards Generator (documentation reference)
-- ⊘ AI System Registry (web service reference)
-- ✓ Model Card Generation Generator
-- ⊘ AI Transparency Labels (web service reference)
-- ⊘ Quality Management System (QMS) Tracker (web service reference)
-- ⊘ AI Logging System (web service reference)
-- ⊘ CE Marking Generator (web service reference)
+- Total: 4
+- Downloaded: 0
+- Skipped: 4
+- Failed: 0
 
----
+### Privacy → `EU AI Act Compliance`
 
-## Legend
+- Total: 6
+- Downloaded: 0
+- Skipped: 6
+- Failed: 0
 
-- **✓** = Successfully cloned from GitHub
-- **⊘** = Not a GitHub repository (API/web service - reference file created)
-- **✗** = Failed to download (repository not found or access denied)
+### Societal → `Societal`
 
----
+- Total: 7
+- Downloaded: 1
+- Skipped: 6
+- Failed: 0
 
-## Notes
+### Technical → `Technical`
 
-1. **Reference Files:** For non-GitHub URLs (APIs, web services, documentation), a `URL_REFERENCE.txt` file has been created in the tool's folder containing the URL for manual access.
+- Total: 8
+- Downloaded: 3
+- Skipped: 5
+- Failed: 0
 
-2. **Failed Download:** The "License Checker" tool failed because the repository URL (https://github.com/iweb/scancode-toolkit) does not exist. The correct URL might be different.
+### Third-Party → `Third-Party`
 
-3. **Git Repositories:** All successfully cloned repositories were cloned with `--depth 1` to minimize storage space while maintaining access to the latest code.
+- Total: 6
+- Downloaded: 1
+- Skipped: 5
+- Failed: 0
 
-4. **Usage:** Each tool folder contains the complete repository with documentation, examples, and source code. Refer to individual README files in each tool folder for installation and usage instructions.
+### Trust → `Trust`
 
----
+- Total: 6
+- Downloaded: 2
+- Skipped: 4
+- Failed: 0
 
-## Next Steps
+## Newly Downloaded Tools
 
-To use these tools:
+- **CodeCarbon** (Environment)
+  - URL: https://github.com/mlco2/codecarbon
+  - Location: `Risks packages/Environment/`
 
-1. Navigate to the specific tool folder
-2. Read the README.md file in the tool's repository
-3. Install dependencies as specified in requirements.txt, package.json, or similar files
-4. Follow the tool's documentation for integration with your EU AI Act compliance workflow
+- **RAGAS** (Technical)
+  - URL: https://github.com/explodinggradients/ragas
+  - Location: `Risks packages/Technical/`
 
----
+- **DeepEval** (Technical)
+  - URL: https://github.com/confident-ai/deepeval
+  - Location: `Risks packages/Technical/`
 
-**Download Script:** `download_github_tools.py`
-**Location:** `/Users/miachen/Library/CloudStorage/OneDrive-DTMasterCarbon/DT Master Mia Personal/5 Tech/AI act/github download`
+- **PromptFoo** (Technical)
+  - URL: https://github.com/promptfoo/promptfoo
+  - Location: `Risks packages/Technical/`
+
+- **LIME** (Trust)
+  - URL: https://github.com/marcotcr/lime
+  - Location: `Risks packages/Trust/`
+
+- **Captum** (Trust)
+  - URL: https://github.com/pytorch/captum
+  - Location: `Risks packages/Trust/`
+
+- **Fairlearn** (Fundamental Rights)
+  - URL: https://github.com/fairlearn/fairlearn
+  - Location: `Risks packages/Fundamental Rights/`
+
+- **Aequitas** (Fundamental Rights)
+  - URL: https://github.com/dssg/aequitas
+  - Location: `Risks packages/Fundamental Rights/`
+
+- **Detoxify** (Societal)
+  - URL: https://github.com/unitaryai/detoxify
+  - Location: `Risks packages/Societal/`
+
+- **License Checker** (Third-Party)
+  - URL: https://github.com/nexB/scancode-toolkit
+  - Location: `Risks packages/Third-Party/`
+
+- **Confidence Calibration** (Health & Safety)
+  - URL: https://github.com/uncertainty-toolbox/uncertainty-toolbox
+  - Location: `Risks packages/Health & Safety/`
+
+- **Serious Incident Reporter** (EU AI Act Compliance)
+  - URL: https://github.com/TheHive-Project/TheHive
+  - Location: `Risks packages/EU AI Act Compliance/`
+
